@@ -1,0 +1,12 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Screens/MainMenu/Main%20Menu.uss?fileID=7433441132597879392&amp;guid=46c84659fd34aa24fabf736cdcd99ee2&amp;type=3#Main Menu" />
+    <ui:VisualElement name="VisualElement" class="main-menu-bg" style="background-image: url(&quot;project://database/Assets/UI/Sprites/d.jpg?fileID=2957404852419100943&amp;guid=f8f1252e76405014bbe04448e386a4b1&amp;type=3#d_0&quot;); width: 1076px; height: 1764px;">
+        <ui:VisualElement class="main-menu-content-container">
+            <ui:VisualElement class="logo-img" style="background-image: url(&quot;project://database/Assets/UI/Sprites/b.png?fileID=-4983721108374671077&amp;guid=2005c29ab82250d4d966c97b45a4cf59&amp;type=3#b_0&quot;); width: 364px; height: 440px;" />
+            <ui:VisualElement class="menu-btn-container" />
+            <ui:Button text="play" class="menu-btn" style="background-color: rgba(14, 12, 12, 0.8); color: rgb(255, 255, 255); background-image: url(&quot;project://database/Assets/UI/Sprites/c.jpg?fileID=8579111415464493206&amp;guid=06c94e45b00b2754a93ae600695a7c6b&amp;type=3#c_0&quot;); width: 357px; height: 168px;" />
+            <ui:Button text="Settings" class="menu-btn" style="background-color: rgba(14, 12, 12, 0.8); color: rgb(255, 255, 255); background-image: url(&quot;project://database/Assets/UI/Sprites/c.jpg?fileID=8579111415464493206&amp;guid=06c94e45b00b2754a93ae600695a7c6b&amp;type=3#c_0&quot;); width: 216px; height: 90px;" />
+            <ui:Button text="Exit" class="menu-btn" style="background-color: rgba(14, 12, 12, 0.8); color: rgb(255, 255, 255); background-image: url(&quot;project://database/Assets/UI/Sprites/c.jpg?fileID=8579111415464493206&amp;guid=06c94e45b00b2754a93ae600695a7c6b&amp;type=3#c_0&quot;); width: 191px; height: 97px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

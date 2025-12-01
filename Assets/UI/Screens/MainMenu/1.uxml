@@ -1,0 +1,10 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="GameOver" src="project://database/Assets/UI/Screens/GameOver/GameOver.uxml?fileID=9197481963319205126&amp;guid=dad4aeee9b354c549b62231f7d3279f6&amp;type=3#GameOver" />
+    <Style src="project://database/Assets/UI/Screens/MainMenu/1.uss?fileID=7433441132597879392&amp;guid=46736b0683985914fa7c19b19b8c4093&amp;type=3#1" />
+    <ui:VisualElement class="heart" style="background-image: url(&quot;project://database/Assets/UI/Sprites/a.png?fileID=-4910088520043721169&amp;guid=bafec65f224bc7546a7af9fc6002df99&amp;type=3#a_0&quot;);" />
+    <ui:Label text="Lives: 5" name="LifeCountText" class="life-text" />
+    <ui:VisualElement class="score-text">
+        <ui:Label text="Score: 0" name="ScoreText" class="score-label" />
+    </ui:VisualElement>
+    <ui:Instance template="GameOver" name="GameOver" style="height: 100%; position: absolute; width: 100%; display: none;" />
+</ui:UXML>

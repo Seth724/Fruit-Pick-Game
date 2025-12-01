@@ -1,0 +1,10 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/Screens/GameOver/GameOver.uss?fileID=7433441132597879392&amp;guid=0715fe213f6ff9541896534113c38adc&amp;type=3#GameOver" />
+    <ui:VisualElement name="GameOverOverlay" style="flex-grow: 1; -unity-background-image-tint-color: rgba(255, 255, 255, 0.47); display: flex;">
+        <ui:VisualElement style="flex-grow: 1; align-items: center; justify-content: space-between; width: 1084px;">
+            <ui:VisualElement style="flex-grow: 1; background-image: url(&quot;project://database/Assets/UI/Sprites/f.png?fileID=4051853549349518899&amp;guid=c2072df7e0358b048a901692e929d9db&amp;type=3#f_0&quot;); width: 704px; align-items: auto; justify-content: center; flex-direction: row; background-size: 100% 25%;">
+                <ui:Button text="PLAY AGAIN" name="PlayAgain" style="width: 439px; height: 128px; align-items: center; justify-content: space-between; background-color: rgba(188, 188, 188, 0.39); background-image: url(&quot;project://database/Assets/UI/Sprites/c.jpg?fileID=8579111415464493206&amp;guid=06c94e45b00b2754a93ae600695a7c6b&amp;type=3#c_0&quot;); top: -500px; -unity-font-style: bold-and-italic; font-size: 44px; color: rgb(207, 176, 176); display: flex;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,33 @@
+.main-menu-bg {height: 100%;
+width: 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.main-menu-content-container {
+    width:80%;
+    height:70%;
+    background-color: rgba(65,105,225,0.29);
+    display: flex;
+    align-items: center;
+}
+
+.logo-img{
+    width:75%;
+    height:450px;
+    -unity-background-scale-mode:scale-to-fit;
+}
+
+.menu-btn{
+    background-color: rgba(255,255,255,0.8);
+    margin-top:0px;
+    text-color:black;
+    border-width:2px;
+    width:200px;
+    height:50px;
+    font-size:20px;
+    font-weight:bold;
+
+    -unity-background-scale-mode:scale-to-fit;
+    margin-bottom:15px;
+}
